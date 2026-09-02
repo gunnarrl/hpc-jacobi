@@ -1,0 +1,27 @@
+# Build output
+build/
+bin/
+*.o
+*.obj
+*.exe
+*.out
+
+# CUDA build artifacts
+*.ptx
+*.cubin
+*.fatbin
+
+# Profiling output
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Misc
+.DS_Store
